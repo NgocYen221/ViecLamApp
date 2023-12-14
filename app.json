@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "ViecLamApp",
+    "slug": "ViecLamApp",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "ViecLamApp"
+}
