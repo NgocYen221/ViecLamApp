@@ -7,6 +7,7 @@ export default HomeScreen=({route,navigation})=> {
   const menu=()=>{
     navigation.openDrawer();
   }
+  //sjdshj
     return (
         <SafeAreaView style={{flex:1}}>
           <View style={{ width: '100%', height: '100%', backgroundColor: 'white' }}>
