@@ -1,6 +1,5 @@
 import { Dimensions, SafeAreaView, StyleSheet, TextInput, TouchableOpacity } from "react-native"
 import { Text, View } from "react-native"
-import Icon from 'react-native-vector-icons/MaterialIcons'
 import Entypo from 'react-native-vector-icons/Entypo'
 import { useState } from "react"
 import Fontisto from "react-native-vector-icons/Fontisto"
@@ -22,12 +21,12 @@ export default Login = ({ navigation }) => {
                     </View>
                     {/* Email && Password */}
                     <View style={{ width: '100%', alignItems: 'center', marginTop: 0.05 * heightWindow,marginBottom: 0.015 * heightWindow }}>
-                        <View style={{backgroundColor:"#F0F0F0", borderRadius: 100,borderWidth:1,padding:12, width: '80%', height: '30px', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
+                        <View style={{backgroundColor:"#F0F0F0", borderRadius: 100,padding:12, width: '80%', height: '30px', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
                             <Fontisto  style={{paddingLeft:24}}name='email' color="black" size={30}/>
                             <TextInput placeholder="Email" style={{ color: 'black', width: '75%', height: '100%'}}
                                 autoCapitalize="none" />
                         </View>
-                        <View style={{backgroundColor:"#F0F0F0",marginTop: 0.015 * heightWindow, borderRadius: 100,borderWidth:1,padding:12, width: '80%', height: '30px', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
+                        <View style={{backgroundColor:"#F0F0F0",marginTop: 0.015 * heightWindow, borderRadius: 100, padding:12, width: '80%', height: '30px', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
                             <Fontisto  style={{paddingLeft:24}}name='locked' color="black" size={30}/>
                             <TextInput placeholder="Nhập mật khẩu" style={{ color: 'black', width: '75%', height: '100%'}}
                                 autoCapitalize="none"
