@@ -3,6 +3,17 @@
     "name": "ViecLamApp",
     "slug": "ViecLamApp",
     "version": "1.0.0",
+    "plugins": [
+      [
+        "expo-document-picker",
+        {
+          "iCloudContainerEnvironment": "Production"
+        }
+      ]
+    ],
+    "permissions": [
+      "READ_EXTERNAL_STORAGE"
+    ],
     "assetBundlePatterns": [
       "**/*"
     ]
